@@ -1,0 +1,268 @@
+@media only screen and (max-width: 768px) {
+    .text-package {
+        font-size: 18px;
+    }
+    .container-loan {
+        padding: 24px 10px 24px 10px !important;
+    }
+    .text-title-loan {
+        font-size: 12px;
+        width: 12.5%;
+    }
+    .img-loan {
+        width: 30px;
+        height: 30px;
+    }
+    .container-registration {
+        flex-direction: column;
+        margin-top: 30px !important;
+        padding: 10px 20px 0 20px !important;
+    }
+    .text-steps {
+        font-size: 18px;
+    }
+    .sty-steps {
+        margin: 0 !important;
+    }
+    .container-steps-loan {
+        padding-top: 20px !important;
+    }
+    .img-steps {
+        padding: 10px !important;
+    }
+    .img-steps img {
+        width: 19px;
+        height: 20px;
+    }
+    .img-left img {
+        width: 30px;
+        height: 20px;
+    }
+    .text-number-steps {
+        font-size: 15px;
+    }
+    .text-note-steps {
+        font-size: 13px;
+    }
+    .title-tutorial {
+        font-size: 20px;
+    }
+    .container-tutorial {
+        padding: 20px 0 !important;
+    }
+    .container-tutorial-steps {
+        margin: 0 20px  !important;
+        padding-bottom: 20px;
+    }
+    .tutorial-steps {
+        padding: 0 20px !important;
+    }
+    .number-tutorial {
+        font-size: 20px;
+        padding: 3px 10px !important;
+    }
+    .number-steps {
+        margin-right: 15px !important;
+    }
+    .text-tutorial {
+        font-size: 15px;
+    }
+    .text-tutorial-note {
+        font-size: 13px;
+    }
+    .bg-white {
+        padding: 8px 18px 11px 12px !important;
+    }
+    .img-download {
+        width: 100% !important;
+    }
+    .text-download {
+        font-size: 18px;
+    }
+    .position-download {
+        top: 6%;
+        left: 32%;
+    }
+    .img-qr {
+        width: 150px;
+        height: 150px;
+    }
+    .menu-bottom a {
+        display: none !important;
+    }
+    .menu-bottom {
+        background-color: none !important;
+    }
+    .title-quick-loan {
+        display: none !important;
+    }
+    .title-quick-loan-mobile {
+        display: block;
+    }
+    .text-registration {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: #DD1F26;
+        text-transform: uppercase;
+        
+    }
+    .text-amount {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        color: #333333;
+    }
+    .text-advise {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        color: #333333;
+    }
+    .btn-registration-fast {
+        width: 100%;
+        height: 68px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        background: linear-gradient(180deg, #E9333A 0%, #DD1F26 100%);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+    .select-check {
+        flex-direction: column;
+    }
+    .container-choose-steps {
+     margin: 0 !important;
+     padding: 20px !important;   
+    }
+    .text-papers {
+        font-size: 15px;
+    }
+    .text-money {
+        font-size: 13px;
+    }
+    .sty-margin {
+        margin-left: 40px !important;
+    }
+    .sty-margin-block {
+        display: none;
+    }
+    .d-mobile {
+        flex-direction: column;
+    }
+    .slidecontainer-mobile {
+        margin-left: 0 !important;
+    }
+    .text-select-money {
+        font-size: 13px;
+    }
+    .text-pay {
+        font-size: 13px;
+    }
+    .d-mobile-input {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .input-text-mobile {
+        margin: 0 !important;
+    }
+    .input-text-mobile-768 {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .text-package {
+        font-size: 22px;
+    }
+    .img-loan {
+        width: 40px;
+        height: 40px;
+    }
+    .text-title-loan {
+        font-size: 14px;
+        width: 12.5%;
+    }
+    .container-loan {
+        padding: 24px 30px 24px 30px !important;
+    }
+    .container-registration {
+        margin-top: 30px !important;
+        padding: 10px 20px 0 20px !important;
+    }
+    .text-steps {
+        font-size: 18px;
+    }
+    .sty-steps {
+        width: 50%;
+    }
+    .container-registration {
+        width: 100%;
+    }
+    .container-steps-loan {
+        padding-top: 20px !important;
+    }
+    .img-steps {
+        padding: 10px !important;
+    }
+    .img-steps img {
+        width: 19px;
+        height: 20px;
+    }
+    .img-left img {
+        width: 30px;
+        height: 20px;
+    }
+    .text-number-steps {
+        font-size: 15px;
+    }
+    .text-note-steps {
+        font-size: 13px;
+    }
+
+    .title-tutorial {
+        font-size: 20px;
+    }
+    .container-tutorial {
+        padding: 50px 0 !important;
+    }
+    .container-tutorial-steps {
+        margin: 0 60px  !important;
+        padding-bottom: 20px;
+    }
+    .tutorial-steps {
+        padding: 0 60px !important;
+    }
+    .number-tutorial {
+        font-size: 25px;
+        padding: 5px 15px !important;
+    }
+    .number-steps {
+        margin-right: 20px !important;
+    }
+    .text-tutorial {
+        font-size: 17px;
+    }
+    .text-tutorial-note {
+        font-size: 15px;
+    }
+    .bg-white {
+        padding: 13px 23px 16px 17px !important;
+    }
+    .menu-bottom  {
+        padding: 0 !important;
+    }
+    .btn-menu-bottom {
+        font-size: 12px;
+    }
+    .label-check {
+        font-size: 14px;
+    }
+
+}
