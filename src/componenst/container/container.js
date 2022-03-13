@@ -72,13 +72,21 @@ function Container () {
             <div className="input-group" style={{marginBottom: '15px'}}>
               <input type="text" className="form-control input-text" placeholder="Số điện thoại của bạn" />
             </div>
-            <div className="input-group input-select" style={{marginBottom: '15px'}}>
-              <input type="text" className="form-control p-0" style={{border: 'none'}} placeholder="Khu vực sống hiện tại (Tỉnh/TP)" />
-              <button type="button" className="bg-white dropdown-toggle dropdown-toggle-split p-0" style={{border: 'none', marginTop: '4px'}} />
+            <div className="input-group " style={{marginBottom: '15px'}}>
+              <select class="form-select input-select" id="inputGroupSelect01" style={{border: 'none'}} placeholder="" >
+                  <option selected>Khu vực sống hiện tại (Tỉnh/TP)</option>
+                  <option value="1">Hà Nội</option>
+                  <option value="2">Hồ Chí Minh</option>
+                  <option value="3">Đà Nẵng</option>
+                </select>
             </div>
-            <div className="input-group input-select" style={{marginBottom: '15px'}}>
-              <input type="text" className="form-control p-0" style={{border: 'none'}} placeholder="Khu vực sống hiện tại (Quận/Huyện)" />
-              <button type="button" className="bg-white dropdown-toggle dropdown-toggle-split p-0" style={{border: 'none', marginTop: '4px'}} />
+            <div className="input-group" style={{marginBottom: '15px'}}>
+            <select class="form-select input-select" id="inputGroupSelect01" style={{border: 'none'}} placeholder="" >
+                  <option selected>Khu vực sống hiện tại (Quận/Huyện)</option>
+                  <option value="1">Sơn Tây</option>
+                  <option value="2">Thanh Xuân</option>
+                  <option value="3">Cầu Giấy</option>
+                </select>
             </div>
           </div>
           <div style={{marginBottom: '25px'}}>
